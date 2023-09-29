@@ -75,6 +75,7 @@ font-weight: 500;
                       </div>
                   </div>
               <!-- Payment Section / token response -->
+              <p> Sometimes for the iframe to pop up this page needs to be freshed.. weird quirk on this testing page i havent fixed</p>
               <hr class="mt-4">
               <h4 class="mb-3">Payment</h4>  
               <small class="text-muted">Testing Card info: 4111 1111 1111 1111 exp 10/25 cvc 999 any valid zipcode</small>              
