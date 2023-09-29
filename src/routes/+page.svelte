@@ -1,5 +1,6 @@
-<script>
-  import Navbar from '$lib/components/Navbar.svelte';
+<script>  
+  import PdfViewer from 'svelte-pdf';
+ 
 
   let codeSnippet = `
     <pre class="bg-dark text-light p-2">
@@ -46,14 +47,6 @@
 </script>
 
 
-
-
-
-
-
-
-
-
 <div class="container">
   <div class="row">
     <div class="col-md-6">
@@ -68,8 +61,9 @@
         </p>
         <p> 
           I can get the browser to communicate with the payment processor and api that is allowing the payment iframe to 
-          render correctly but i am having issues getting the iframe to submit the payment information and return a ticket_id in my Svelte FormActions. I have tried everythig in my limited knowledge 
-          to get this wrapped up and have honestly learned a bunch in the process but i am stuck. I'm including everything I have to work with in the documentation in the hopes that someone can help me. 
+          render correctly but i am having issues getting the iframe to submit the payment information and return a ticket_id in my Svelte FormActions. I have tried everything in my limited knowledge 
+          to get this wrapped up and have honestly learned a bunch in the process but I am stuck.
+           I'm including everything I have to work with in the documentation in the hopes that someone can help me. 
         </p>
         <p>
           I am really liking Sveltekit and can fly through the development process but this is a major roadblock for me. I have been working on this for a couple of days now and am at the point where I need to ask for help.
@@ -77,7 +71,10 @@
         <hr>
         <h4>Documentation</h4>
         <hr>
-        <a href="https://docs.fortis.tech/v/1_0_0.html#/rest/elements/overview">Fortis Elements Documentation</a>
+        <a href="https://github.com/daveroberts0321/3rdpartycreditcardtransaction/">Github Repository of this App</a><br>
+        <a href="https://docs.fortis.tech/v/1_0_0.html#/rest/elements/overview">Fortis Elements Documentation</a><br>
+        <h5>**PDF integration guide located in github link src/lib/images </h5>
+
 
       </div>      
     </div>
